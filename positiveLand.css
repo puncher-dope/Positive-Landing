@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap");
+body{
+    margin: 40px 70px 60px 70px;
+    font-family: "Space Grotesk", serif;
+    font-size: 18px;
+}
+/* header */
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width: 65%;   
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}  
+.header-info a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.header-info a:hover{
+    opacity: 0.3;
+}
+.specialButton{
+    width: 231px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 1s;
+}
+.header-info .specialButton:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+/* main */
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.main-info h1{
+    width: 531px;
+    font-size: 60px;
+    filter: drop-shadow(#695a5a 0.2rem  0.3rem 0.2rem);
+}
+.main-info p{
+    width: 531px;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.main-info .specialButton2{
+    background: #000000;
+    padding: 15px;
+    width: 231px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.main-info .specialButton2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.main-info .specialButton2 a{
+    text-decoration: none;
+    color: #fff;
+}
+/* ссылки на платформы */
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.links img{
+    color: #000000;
+}
+.links svg{
+    filter: drop-shadow(#695a5a 0.2rem  0.3rem 0.2rem);
+}
+/* сервисы */
+.servesis{
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.servesis h2{
+    padding: 5px 10px;
+    font-size: 40px;
+    background: #B9FF66;
+    border-radius: 5px;
+}
+.servesis p{
+    margin-left: 40px;
+    width: 50%;
+}
+/* карточки в сервисах */
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.container-cards h2{
+    font-size: 38px;
+}
+.card1, .card2, .card3, .card4, .card5,
+.card6{
+    height: 300px;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 530px;
+}
+.pre1, .pre2, .pre3, .pre4, .pre5, .pre6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.learnMore{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    float: left;
+}
+.card1 h2, .card4 h2{
+    padding: 7px;
+    background: #B9FF66;
+    border-radius: 5px;
+}
+.card2, .card5{
+    background: #B9FF66;
+}
+.card2 h2, .card5 h2{
+    background: #fff;
+    padding: 7px;
+}
+.card3, .card6{
+    background: #000000;
+}
+.card3, .card6 .learnMore{
+    color: #fff;
+}
+.card3 h2{
+    background: #fff;
+    padding: 7px;
+    color: black;
+}
+.card6 h2{
+    background: #B9FF66;
+    padding: 7px;
+    color: black;
+}
+/* разделительный кейс */
+.case{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.postCase{
+    width: 500px;
+}
+.proposa{
+    font-size: 20px;
+    padding: 15px 0;
+    text-align: center;
+    background: #000000;
+    width: 288px;
+    border-radius: 10px;
+}
+.proposa a{
+    text-decoration: none;
+    color: white;
+}
+/* кейсы студис */
+.caseStudies{
+    color: #fff;
+    background-color: #191A23;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    width: 95%;
+    padding: 50px 20px;
+}
+.caseStudies .studies1, .studies2, .studies3{
+    width: 286px;
+    height: 150;
+    text-align: left;
+}
+.caseStudies .studies1, .studies2{
+    padding-right: 50px;
+    border-right: 1px solid #fff;
+}
+.studiosLink{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.studies1 a, .studies2 a{
+    text-decoration: none;
+    color: #B9FF66;
+}
+.studies3 a{
+    text-decoration: none;
+    color: #B9FF66;
+}
